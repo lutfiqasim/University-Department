@@ -451,7 +451,6 @@ public class Main extends Application {
 					}
 				} catch (FileNotFoundException ex) {
 					warning_Message("Error:No file was found for department");
-//					departments = new Avl<>();
 				}
 			} catch (NullPointerException nullE) {
 				warning_Message("No File Was Choosen");
